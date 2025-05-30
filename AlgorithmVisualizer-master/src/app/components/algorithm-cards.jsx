@@ -9,25 +9,25 @@ const algorithms = [
     id: 'pathfinder',
     title: "Pathfinder",
     description: "Visualize graph algorithms like dijkstra, BFS, DFS",
-    image: '/AlgorithmVisualizer/images/graphh.jpg?height=300&width=300'
+    image: '/AlgorithmVisualizer/images/graph.png?height=300&width=300'
   },
   {
     id: 'recursion-tree',
     title: 'Recursion Tree',
     description: "The process in which a function calls itself directly or indirectly is called recursion",
-    image: '/AlgorithmVisualizer/images/recursion.jpg?height=200&width=300'
+    image: '/AlgorithmVisualizer/images/recursion.png?height=200&width=300'
   },
   {
     id: 'sorting',
     title: 'Sorting Algorithm',
     description: "Compare different sorting algorithms",
-    image: '/AlgorithmVisualizer/images/sort.png?height=200&width=300'
+    image: '/AlgorithmVisualizer/images/sortt.png?height=200&width=300'
   },
   {
     id: 'recursive-sorting',
     title: 'Recursive Sorting',
     description: "Compare different recursive sorting algorithms",
-    image: '/AlgorithmVisualizer/images/sort.png?height=200&width=300'
+    image: '/AlgorithmVisualizer/images/sortr.webp?height=300&width=300'
   },
   {
     id: 'n-queen',
@@ -40,7 +40,7 @@ const algorithms = [
     id: 'prime-numbers',
     title: 'Prime Numbers',
     description: "Visualize how Seive is better than brute force",
-    image: '/AlgorithmVisualizer/images/primes.jpg?height=200&width=300'
+    image: '/AlgorithmVisualizer/images/primes.png?height=200&width=300'
   },
   
   {

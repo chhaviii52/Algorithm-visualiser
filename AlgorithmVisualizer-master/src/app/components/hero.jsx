@@ -4,7 +4,7 @@ export default function Hero() {
     return (
         <section className="container mx-auto px-6 py-12 w-full flex flex-col md:flex-row items-center gap-8">
             <div className="md:w-3/4 space-y-4">
-                <h1 className="text-8xl font-bold">Algorithm Visualizer</h1>
+                <h1 className="text-7xl font-bold">Algorithm Visualizer</h1>
                 <p className="text-3xl text-muted-foreground"> 
                     You’re not bad at algorithms, you just need to see them differently.
                      <br></br>
