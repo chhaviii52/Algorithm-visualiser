@@ -9,7 +9,7 @@ const algorithms = [
     id: 'pathfinder',
     title: "Pathfinder",
     description: "Visualize graph algorithms like dijkstra, BFS, DFS",
-    image: '/AlgorithmVisualizer/images/graph.png?height=300&width=300'
+    image: '/AlgorithmVisualizer/images/graph.png?height=200&width=300'
   },
   {
     id: 'recursion-tree',
@@ -17,7 +17,7 @@ const algorithms = [
     description: "The process in which a function calls itself directly or indirectly is called recursion",
     image: '/AlgorithmVisualizer/images/recursion.png?height=200&width=300'
   },
-  {
+   {
     id: 'sorting',
     title: 'Sorting Algorithm',
     description: "Compare different sorting algorithms",
@@ -26,8 +26,8 @@ const algorithms = [
   {
     id: 'recursive-sorting',
     title: 'Recursive Sorting',
-    description: "Compare different recursive sorting algorithms",
-    image: '/AlgorithmVisualizer/images/sortr.webp?height=300&width=300'
+    description: "Compare different sorting algorithms",
+    image: '/AlgorithmVisualizer/images/sortr.webp?height=200&width=300'
   },
   {
     id: 'n-queen',
@@ -42,20 +42,14 @@ const algorithms = [
     description: "Visualize how Seive is better than brute force",
     image: '/AlgorithmVisualizer/images/primes.png?height=200&width=300'
   },
-  
+
   {
     id: 'binary-search',
     title: 'Binary Search',
     description: "Binary search is an efficient algorithm for finding an item from a sorted list of item",
     image: '/AlgorithmVisualizer/images/binary-search.png?height=200&width=300'
-  },
-  // {
-  //   id: '15-puzzle',
-  //   title: '15 Puzzle',
-  //   description: "The 15-puzzle is a sliding puzzle that consists of a frame of numbered square tiles in random order with one tile missing",
-  //   image: '/AlgorithmVisualizer/images/15puzzle.PNG?height=200&width=300'
-  // }
-]
+  }
+];
 
 export function AlgorithmCards() {
   return (
@@ -86,4 +80,3 @@ export function AlgorithmCards() {
     </div>
   )
 }
-

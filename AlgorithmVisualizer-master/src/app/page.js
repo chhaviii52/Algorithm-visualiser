@@ -7,7 +7,9 @@ import Hero from "./components/hero";
    
 export default function Page() {
   return (
-    <div className="min-h-screen bg-background ">
+
+    <div className="min-h-screen bg-background">
+
       <Navbar title="Algorithm Visualizer"/>
       <Hero/>
     {/* <header className="bg-gradient-to-r from-purple-600 to-indigo-600 text-white">
@@ -20,11 +22,13 @@ export default function Page() {
         </p>
       </div>
     </header> */}
-    <main className="container mx-auto py-12 px-4 border-t border-black-200">
+
+
+    <main className="container mx-auto py-12 px-4">
+
       <AlgorithmCards />
     </main>
     <Footer/>
   </div>
-  
   )
-}
+  }

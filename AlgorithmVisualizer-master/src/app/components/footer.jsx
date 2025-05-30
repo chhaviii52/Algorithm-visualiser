@@ -16,7 +16,7 @@ export default function Footer() {
     <footer className="bg-background py-6 px-6 mt-12 border-t">
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
         <div className="text-sm text-muted-foreground mb-4 md:mb-0">
-          © {new Date().getFullYear()}    CHHAVI THAKUR   .  All rights reserved.
+          © {new Date().getFullYear()} CHHAVI THAKUR. All rights reserved.
         </div>
         <div className="flex flex-wrap justify-center gap-2">
           {/* <Button variant="outline" size="sm">
@@ -39,7 +39,6 @@ export default function Footer() {
             <GitFork className="mr-2 h-4 w-4" />
             Fork
           </Button> */}
-       
         
         </div>
       </div>
