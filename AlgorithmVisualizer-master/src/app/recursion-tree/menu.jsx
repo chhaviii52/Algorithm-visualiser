@@ -10,16 +10,16 @@ class Menu extends Component {
                 <h2 className="text-lg font-semibold">Settings</h2>
                 <CustomSelect
                     title="Select Task"
-                    options={['Fibonacci', 'Binomial Coefficient', "Derangement", "Bigmod", "Stirling2"]}
+                    options={['Fibonacci', 'Binomial Coefficient']}
                     onChange={this.props.setAlgo}
                 />
                 <CustomSelect
-                    title={'N'}
+                    title={'N (No. of Nodes)'}
                     options={["0", "1", "2", "3", "4", "5", "6"]}
                     onChange={this.props.setN}
                 />
                 <CustomSelect
-                    title={'R'}
+                    title={'R (Only for Binomial Coefficient)'}
                     options={["0", "1", "2", "3", "4", "5", "6"]}
                     onChange={this.props.setR}
                 />

@@ -8,45 +8,45 @@ const algorithms = [
   {
     id: 'pathfinder',
     title: "Pathfinder",
-    description: "Visualize graph algorithms like dijkstra, BFS, DFS",
+    description: "Visualize graph algorithms like Dijkstra, BFS, DFS.",
     image: '/AlgorithmVisualizer/images/graph.png?height=200&width=300'
   },
   {
     id: 'recursion-tree',
     title: 'Recursion Tree',
-    description: "The process in which a function calls itself directly or indirectly is called recursion",
+    description: "The process in which a function calls itself directly or indirectly is called recursion.",
     image: '/AlgorithmVisualizer/images/recursion.png?height=200&width=300'
   },
    {
     id: 'sorting',
     title: 'Sorting Algorithm',
-    description: "Compare different sorting algorithms",
+    description: "Sorting Algorithms - Bubble Sort, Selection Sort, Insertion Sort, Quick Sort.",
     image: '/AlgorithmVisualizer/images/sortt.png?height=200&width=300'
   },
   {
     id: 'recursive-sorting',
     title: 'Recursive Sorting',
-    description: "Compare different sorting algorithms",
+    description: "Recursive Sorting Algorithms - Merge Sort, Heap Sort, Quick Sort.",
     image: '/AlgorithmVisualizer/images/sortr.webp?height=200&width=300'
   },
   {
     id: 'n-queen',
     title: 'N Queen',
-    description: "The N queens puzzle is the problem of placing N chess queens on an N*N chessboard so that no two queens threaten each other",
+    description: "The N queens puzzle is the problem of placing N chess queens on an N*N chessboard so that no two queens threaten each other.",
     image: '/AlgorithmVisualizer/images/queen.PNG?height=200&width=300'
   },
 
   {
     id: 'prime-numbers',
     title: 'Prime Numbers',
-    description: "Visualize how Seive is better than brute force",
+    description: "Visualize how Sieve of Eratosthenes is better than brute force.",
     image: '/AlgorithmVisualizer/images/primes.png?height=200&width=300'
   },
 
   {
     id: 'binary-search',
     title: 'Binary Search',
-    description: "Binary search is an efficient algorithm for finding an item from a sorted list of item",
+    description: "Binary search is an efficient algorithm for finding an item from a sorted list of item.",
     image: '/AlgorithmVisualizer/images/binary-search.png?height=200&width=300'
   }
 ];

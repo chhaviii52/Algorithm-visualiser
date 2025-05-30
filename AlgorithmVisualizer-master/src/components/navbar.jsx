@@ -9,13 +9,13 @@ export default function Navbar(props) {
       <div className="flex items-center space-x-4">
 <Button variant="ghost" size="lg" asChild>
   <Link href="/">
-    <Home className="h-4 w-4" />
+    <Home className="h-4 w-6" />
     Home
   </Link>
 </Button>
-<Button variant="ghost" size="lg" asChild>
+{/* <Button variant="ghost" size="lg" asChild>
   <Link href="/about">About</Link>
-</Button>
+</Button> */}
 
       </div>
     </nav>
