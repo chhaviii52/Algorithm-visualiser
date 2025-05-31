@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import { getAssetPath } from '@/lib/utils'
 
 export default function Hero() {
     return (
@@ -13,7 +14,7 @@ export default function Hero() {
 </div>
             <div className="md:w-1/4">
                 <Image
-                    src="/AlgorithmVisualizer/images/Algorithm.png?height=400&width=600"
+                    src={getAssetPath("images/Algorithm.png?height=400&width=600")}
                     alt="Hero image"
                     width={300}
                     height={200}
